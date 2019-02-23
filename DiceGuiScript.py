@@ -35,8 +35,6 @@ class RollingGame(QMainWindow):
         
         self.scene.addItem(item)
         self.scene2.addItem(item2)
-
-        dir(self.scene)
         
         self.ui.graphicsView.setScene(self.scene)
         self.ui.graphicsView_2.setScene(self.scene2)
